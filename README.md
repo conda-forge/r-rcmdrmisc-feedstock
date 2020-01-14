@@ -3,11 +3,11 @@ About r-rcmdrmisc
 
 Home: https://www.r-project.org, http://socserv.socsci.mcmaster.ca/jfox/
 
-Package license: GPL (>= 2)
+Package license: GPL-2
 
 Feedstock license: BSD 3-Clause
 
-Summary:  Various statistical, graphics, and data-management functions used by the Rcmdr package in the R Commander GUI for R. 
+Summary: Various statistical, graphics, and data-management functions used by the Rcmdr package in the R Commander GUI for R.
 
 
 
