@@ -1,4 +1,4 @@
-{% set version = "2.7-0" %}
+{% set version = '2.7-0' %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -13,7 +13,6 @@ source:
   sha256: 1eff66dcd86489b49ce4265ce5587d2358f50528bce4d014ac0c817e4aea6422
 
 build:
-  noarch: generic
   merge_build_host: True  # [win]
   number: 0
   noarch: generic
@@ -23,7 +22,7 @@ build:
 
 requirements:
   build:
-
+    - {{posix}}zip               # [win]
   host:
     - r-base
     - r-hmisc >=4.1_0
@@ -60,34 +59,35 @@ test:
 
 about:
   home: https://www.r-project.org, http://socserv.socsci.mcmaster.ca/jfox/
-  license: GPL (>= 2)
-  summary: ' Various statistical, graphics, and data-management functions used by the Rcmdr package
-    in the R Commander GUI for R. '
-  license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+  license: GPL-2
+  summary: Various statistical, graphics, and data-management functions used by the Rcmdr package
+    in the R Commander GUI for R.
+  license_family: GPL2
+  license_file:
+    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
 extra:
   recipe-maintainers:
     - conda-forge/r
 
 # Package: RcmdrMisc
-# Version: 2.5-1
-# Date: 2018-09-10
+# Version: 2.7-0
+# Date: 2019-12-24
 # Title: R Commander Miscellaneous Functions
 # Authors@R: c(person("John", "Fox", role = c("aut", "cre"), email = "jfox@mcmaster.ca"), person("Robert", "Muenchen", role = "ctb"), person("Dan", "Putler", role = "ctb") )
 # Depends: R (>= 3.5.0), utils, car (>= 3.0-0), sandwich
 # Imports: abind, colorspace, Hmisc (>= 4.1-0), MASS, e1071, foreign, haven, readstata13, readxl, graphics, grDevices, stats, nortest
 # Suggests: boot, datasets
 # ByteCompile: yes
-# Description:  Various statistical, graphics, and data-management functions used by the Rcmdr package in the R Commander GUI for R.
+# Description: Various statistical, graphics, and data-management functions used by the Rcmdr package in the R Commander GUI for R.
 # License: GPL (>= 2)
 # URL: https://www.r-project.org, http://socserv.socsci.mcmaster.ca/jfox/
 # Author: John Fox [aut, cre], Robert Muenchen [ctb], Dan Putler [ctb]
 # Maintainer: John Fox <jfox@mcmaster.ca>
 # Repository: CRAN
 # Repository/R-Forge/Project: rcmdr
-# Repository/R-Forge/Revision: 894
-# Repository/R-Forge/DateTimeStamp: 2018-09-10 13:14:36
-# Date/Publication: 2018-09-10 16:00:08 UTC
+# Repository/R-Forge/Revision: 973
+# Repository/R-Forge/DateTimeStamp: 2019-12-24 18:40:27
+# Date/Publication: 2020-01-14 15:10:02 UTC
 # NeedsCompilation: no
-# Packaged: 2018-09-10 13:30:10 UTC; rforge
+# Packaged: 2019-12-24 18:50:10 UTC; rforge
