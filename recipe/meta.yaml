@@ -59,7 +59,7 @@ test:
 
 about:
   home: https://www.r-project.org, http://socserv.socsci.mcmaster.ca/jfox/
-  license: GPL-2
+  license: GPL-
   summary: Various statistical, graphics, and data-management functions used by the Rcmdr package in the R Commander GUI for R.
   license_family: GPL2
   license_file:
