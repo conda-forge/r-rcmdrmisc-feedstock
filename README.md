@@ -3,7 +3,7 @@ About r-rcmdrmisc
 
 Home: https://www.r-project.org, http://socserv.socsci.mcmaster.ca/jfox/
 
-Package license: GPL-2
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcmdrmisc-feedstock/blob/main/LICENSE.txt)
 
