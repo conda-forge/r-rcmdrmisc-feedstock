@@ -1,11 +1,11 @@
-About r-rcmdrmisc
-=================
+About r-rcmdrmisc-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcmdrmisc-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.r-project.org, http://socserv.socsci.mcmaster.ca/jfox/
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcmdrmisc-feedstock/blob/main/LICENSE.txt)
 
 Summary: Various statistical, graphics, and data-management functions used by the Rcmdr package in the R Commander GUI for R.
 
