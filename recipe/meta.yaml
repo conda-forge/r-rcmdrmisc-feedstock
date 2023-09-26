@@ -1,4 +1,4 @@
-{% set version = "2.9-0" %}
+{% set version = "2.9-1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RcmdrMisc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RcmdrMisc/RcmdrMisc_{{ version }}.tar.gz
-  sha256: 33397897281488163d7a1088de7158eb38058f0621ee0cd2ef49485c5b8a28f6
+  sha256: ac9e9c93a531397682652a5a94d64d12a62fbd67b2630b1796658f157843174e
 
 build:
   merge_build_host: true  # [win]
