@@ -1,4 +1,4 @@
-{% set version = "2.10.1" %}
+{% set version = "2.10.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RcmdrMisc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RcmdrMisc/RcmdrMisc_{{ version }}.tar.gz
-  sha256: a83b5055f0cc1591dbe7a6b95f2ef827585a0d31032b808a5a28cc2c079c4b7f
+  sha256: c4dd1f37c657c2ba706a57712aa22a652baa5aca4cc2c8221880b99ef31a351d
 
 build:
   number: 0
